@@ -210,28 +210,12 @@
   <footer>
     CU Campus Help Desk Bot &mdash; Built with IBM Watson Assistant &mdash; Spring 2026
   </footer>
+
   <script>
     window.watsonAssistantChatOptions = {
       integrationID: "a68e3aa0-1bd1-4618-9e95-91bc809d7aad", // The ID of this integration.
       region: "us-south", // The region your integration is hosted in.
       serviceInstanceID: "7f8af973-a46f-41d2-8672-8a187e4e8d8f", // The ID of your service instance.
-<<<<<<< HEAD
-=======
-      onLoad: async (instance) => { await instance.render(); }
-    };
-    setTimeout(function(){
-      const t=document.createElement('script');
-      t.src="https://web-chat.global.assistant.watson.appdomain.cloud/versions/" + (window.watsonAssistantChatOptions.clientVersion || 'latest') + "/WatsonAssistantChatEntry.js";
-      document.head.appendChild(t);
-    });
-  </script>
-  
-  <script>
-    window.watsonAssistantChatOptions = {
-      integrationID: "YOUR_INTEGRATION_ID",       // <-- Replace this
-      region: "us-south",                          // <-- Replace if different
-      serviceInstanceID: "YOUR_SERVICE_INSTANCE_ID", // <-- Replace this
->>>>>>> 4f6891b850943c34d349d24a0d5541e1650e4c32
       onLoad: async (instance) => { await instance.render(); }
     };
     setTimeout(function(){
