@@ -1,0 +1,1104 @@
+{
+  "name": "CU Boulder Campus Help Desk",
+  "intents": [
+    {
+      "intent": "greeting",
+      "examples": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": "Hi there"
+        },
+        {
+          "text": "Hey"
+        },
+        {
+          "text": "Good morning"
+        },
+        {
+          "text": "Good afternoon"
+        },
+        {
+          "text": "Howdy"
+        },
+        {
+          "text": "What's up"
+        },
+        {
+          "text": "Yo"
+        },
+        {
+          "text": "Greetings"
+        },
+        {
+          "text": "Hi"
+        }
+      ]
+    },
+    {
+      "intent": "help",
+      "examples": [
+        {
+          "text": "What can you do?"
+        },
+        {
+          "text": "Help me"
+        },
+        {
+          "text": "What services do you offer?"
+        },
+        {
+          "text": "How can you help?"
+        },
+        {
+          "text": "List your features"
+        },
+        {
+          "text": "What are my options?"
+        },
+        {
+          "text": "I need help"
+        },
+        {
+          "text": "Show me what you can do"
+        },
+        {
+          "text": "Menu"
+        },
+        {
+          "text": "Options"
+        }
+      ]
+    },
+    {
+      "intent": "registration",
+      "examples": [
+        {
+          "text": "I need to register for a class"
+        },
+        {
+          "text": "How do I enroll?"
+        },
+        {
+          "text": "Course registration help"
+        },
+        {
+          "text": "Sign me up for a course"
+        },
+        {
+          "text": "Add a class to my schedule"
+        },
+        {
+          "text": "I want to register"
+        },
+        {
+          "text": "Enrollment help"
+        },
+        {
+          "text": "How do I sign up for classes?"
+        },
+        {
+          "text": "Register for courses"
+        },
+        {
+          "text": "I need to add a class"
+        }
+      ]
+    },
+    {
+      "intent": "tutoring",
+      "examples": [
+        {
+          "text": "I need a tutor"
+        },
+        {
+          "text": "Where can I get study help?"
+        },
+        {
+          "text": "Tutoring services"
+        },
+        {
+          "text": "Help me find a tutor for math"
+        },
+        {
+          "text": "Do you offer tutoring?"
+        },
+        {
+          "text": "I need academic help"
+        },
+        {
+          "text": "Study assistance"
+        },
+        {
+          "text": "Can I get a tutor?"
+        },
+        {
+          "text": "Tutoring appointment"
+        },
+        {
+          "text": "I want tutoring help"
+        }
+      ]
+    },
+    {
+      "intent": "office_hours",
+      "examples": [
+        {
+          "text": "When are office hours?"
+        },
+        {
+          "text": "I need to see my professor"
+        },
+        {
+          "text": "Office hours for CS department"
+        },
+        {
+          "text": "Can I meet my advisor?"
+        },
+        {
+          "text": "Faculty availability"
+        },
+        {
+          "text": "Professor office hours"
+        },
+        {
+          "text": "When can I meet my instructor?"
+        },
+        {
+          "text": "Advisor meeting"
+        },
+        {
+          "text": "TA office hours"
+        },
+        {
+          "text": "How do I see a professor?"
+        }
+      ]
+    },
+    {
+      "intent": "parking",
+      "examples": [
+        {
+          "text": "Where can I park?"
+        },
+        {
+          "text": "How do I get a parking permit?"
+        },
+        {
+          "text": "Parking lot locations"
+        },
+        {
+          "text": "I need parking info"
+        },
+        {
+          "text": "Campus parking help"
+        },
+        {
+          "text": "Parking near the library"
+        },
+        {
+          "text": "Where is the nearest lot?"
+        },
+        {
+          "text": "Parking pass"
+        },
+        {
+          "text": "Visitor parking"
+        },
+        {
+          "text": "Best parking on campus"
+        }
+      ]
+    },
+    {
+      "intent": "dining",
+      "examples": [
+        {
+          "text": "What's open for lunch?"
+        },
+        {
+          "text": "Dining hall hours"
+        },
+        {
+          "text": "Meal plan info"
+        },
+        {
+          "text": "Where can I eat on campus?"
+        },
+        {
+          "text": "Food options today"
+        },
+        {
+          "text": "Restaurant recommendations on campus"
+        },
+        {
+          "text": "Is the UMC cafeteria open?"
+        },
+        {
+          "text": "Dining options"
+        },
+        {
+          "text": "Breakfast hours"
+        },
+        {
+          "text": "Where to eat near Engineering Center"
+        }
+      ]
+    },
+    {
+      "intent": "cancel_modify",
+      "examples": [
+        {
+          "text": "Cancel my appointment"
+        },
+        {
+          "text": "I want to change my registration"
+        },
+        {
+          "text": "Modify my tutoring session"
+        },
+        {
+          "text": "Reschedule my meeting"
+        },
+        {
+          "text": "I need to cancel"
+        },
+        {
+          "text": "Change my appointment time"
+        },
+        {
+          "text": "Update my booking"
+        },
+        {
+          "text": "Can I reschedule?"
+        },
+        {
+          "text": "Delete my appointment"
+        },
+        {
+          "text": "I changed my mind about the time"
+        }
+      ]
+    },
+    {
+      "intent": "escalation",
+      "examples": [
+        {
+          "text": "I want to talk to someone"
+        },
+        {
+          "text": "Connect me to a human"
+        },
+        {
+          "text": "This isn't helping"
+        },
+        {
+          "text": "I need real support"
+        },
+        {
+          "text": "Transfer me to staff"
+        },
+        {
+          "text": "Let me speak to a person"
+        },
+        {
+          "text": "Can I call someone?"
+        },
+        {
+          "text": "I want a real person"
+        },
+        {
+          "text": "Get me a human agent"
+        },
+        {
+          "text": "This bot is not helping"
+        }
+      ]
+    },
+    {
+      "intent": "hours",
+      "examples": [
+        {
+          "text": "What time do you close?"
+        },
+        {
+          "text": "Are you open on weekends?"
+        },
+        {
+          "text": "Business hours"
+        },
+        {
+          "text": "When does the office open?"
+        },
+        {
+          "text": "Saturday hours"
+        },
+        {
+          "text": "What are your hours?"
+        },
+        {
+          "text": "Is the help desk open now?"
+        },
+        {
+          "text": "Operating hours"
+        },
+        {
+          "text": "When do you open tomorrow?"
+        },
+        {
+          "text": "Hours of operation"
+        }
+      ]
+    }
+  ],
+  "entities": [
+    {
+      "entity": "department",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Computer Science",
+          "synonyms": [
+            "CS",
+            "CompSci",
+            "comp sci",
+            "CSCI"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Mathematics",
+          "synonyms": [
+            "Math",
+            "maths"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Physics",
+          "synonyms": [
+            "Phys"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "English",
+          "synonyms": [
+            "ENGL",
+            "Eng"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Chemistry",
+          "synonyms": [
+            "Chem"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Biology",
+          "synonyms": [
+            "Bio",
+            "BIOL"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Economics",
+          "synonyms": [
+            "Econ"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "building",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "Engineering Center",
+          "synonyms": [
+            "EC",
+            "engineering building"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Norlin Library",
+          "synonyms": [
+            "Norlin",
+            "library",
+            "the library",
+            "main library"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "UMC",
+          "synonyms": [
+            "University Memorial Center",
+            "student center",
+            "memorial center"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "ATLAS",
+          "synonyms": [
+            "atlas building"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Ketchum",
+          "synonyms": [
+            "Ketchum Hall"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Duane Physics",
+          "synonyms": [
+            "Duane",
+            "physics building"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "Muenzinger",
+          "synonyms": [
+            "Muenzinger Hall",
+            "psych building"
+          ]
+        }
+      ]
+    },
+    {
+      "entity": "service_type",
+      "values": [
+        {
+          "type": "synonyms",
+          "value": "registration",
+          "synonyms": [
+            "enroll",
+            "enrollment",
+            "register",
+            "sign up",
+            "add class"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "tutoring",
+          "synonyms": [
+            "tutor",
+            "study help",
+            "academic help",
+            "study assistance"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "parking",
+          "synonyms": [
+            "park",
+            "parking permit",
+            "parking pass",
+            "lot"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "dining",
+          "synonyms": [
+            "food",
+            "eat",
+            "meal",
+            "cafeteria",
+            "dining hall",
+            "restaurant"
+          ]
+        },
+        {
+          "type": "synonyms",
+          "value": "office hours",
+          "synonyms": [
+            "professor hours",
+            "advisor meeting",
+            "faculty hours",
+            "TA hours"
+          ]
+        }
+      ]
+    }
+  ],
+  "metadata": {
+    "api_version": {
+      "major_version": "v2",
+      "minor_version": "2018-11-08"
+    }
+  },
+  "description": "CU Boulder Campus Help Desk - handles registration, tutoring, office hours, parking, and dining queries with slot-filling and digressions.",
+  "language": "en",
+  "learning_opt_out": false,
+  "system_settings": {
+    "disambiguation": {
+      "prompt": "Did you mean:",
+      "enabled": true,
+      "randomize": true,
+      "max_suggestions": 5,
+      "suggestion_text_policy": "title"
+    },
+    "system_entities": {
+      "enabled": true
+    },
+    "off_topic": {
+      "enabled": true
+    },
+    "spelling_auto_correct": true
+  },
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "title": "Welcome",
+      "dialog_node": "node_e423626d0972",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Hello! Welcome to the CU Boulder Campus Help Desk. I can help you with:\n\n- Course registration\n- Tutoring sessions\n- Professor office hours\n- Parking information\n- Dining hall hours & options\n\nWhat do you need help with?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "welcome"
+    },
+    {
+      "type": "standard",
+      "title": "Greeting",
+      "dialog_node": "node_7e75c4d5c2df",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Hi there! How can I help you today? I can assist with registration, tutoring, office hours, parking, and dining."
+              },
+              {
+                "text": "Hey! Welcome to the CU Boulder Help Desk. What can I do for you?"
+              },
+              {
+                "text": "Hello! Ready to help. What do you need assistance with today?"
+              }
+            ],
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "#greeting",
+      "previous_sibling": "node_e423626d0972"
+    },
+    {
+      "type": "standard",
+      "title": "Help",
+      "dialog_node": "node_ea0fbc4e7305",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Here's what I can help with:\n\n- Registration: Schedule a registration appointment\n- Tutoring: Book a tutoring session\n- Office Hours: Find professor/TA office hours\n- Parking: Lot locations, permits, directions\n- Dining: Dining hall hours and meal plans\n\nYou can also ask about campus hours, or say 'talk to a person' if you need human help. Just tell me what you need!"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#help",
+      "previous_sibling": "node_7e75c4d5c2df"
+    },
+    {
+      "type": "frame",
+      "title": "Registration Appointment",
+      "dialog_node": "node_b288e5cfbb8f",
+      "output": {},
+      "context": {
+        "service_type": "registration"
+      },
+      "conditions": "#registration",
+      "previous_sibling": "node_ea0fbc4e7305",
+      "digress_in": "does_not_return",
+      "digress_out": "allow_all",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "slot",
+      "dialog_node": "node_7e8c98151fe9",
+      "variable": "$user_name",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "I'd be happy to help you schedule a registration appointment! First, what's your name?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_b288e5cfbb8f"
+    },
+    {
+      "type": "slot",
+      "dialog_node": "node_00970979af17",
+      "variable": "$department",
+      "conditions": "@department",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Thanks, $user_name! Which department is this for? (e.g., Computer Science, Mathematics, Physics, English, Chemistry, Biology, Economics)"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_b288e5cfbb8f",
+      "previous_sibling": "node_7e8c98151fe9"
+    },
+    {
+      "type": "slot",
+      "dialog_node": "node_3f32b45bc0a4",
+      "variable": "$appointment_date",
+      "conditions": "@sys-date",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Got it, $department. What date works for you?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_b288e5cfbb8f",
+      "previous_sibling": "node_00970979af17"
+    },
+    {
+      "type": "slot",
+      "dialog_node": "node_e346fe009c5a",
+      "variable": "$appointment_time",
+      "conditions": "@sys-time",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "And what time would you prefer?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_b288e5cfbb8f",
+      "previous_sibling": "node_3f32b45bc0a4"
+    },
+    {
+      "type": "standard",
+      "title": "Confirm Registration",
+      "dialog_node": "node_c53a31e047e0",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Great! Here's what I have:\n\nName: $user_name\nDepartment: $department\nDate: $appointment_date\nTime: $appointment_time\n\nShould I confirm this appointment?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "appointment_summary": "<? 'Registration for ' + $user_name + ' in ' + $department + ' on ' + $appointment_date + ' at ' + $appointment_time ?>"
+      },
+      "conditions": "true",
+      "parent": "node_b288e5cfbb8f",
+      "previous_sibling": "node_e346fe009c5a"
+    },
+    {
+      "type": "standard",
+      "title": "Registration Confirmed",
+      "dialog_node": "node_1c016d02906e",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Your registration appointment is confirmed, $user_name! You'll meet with a $department advisor on $appointment_date at $appointment_time at the Engineering Center.\n\nIs there anything else I can help with?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "input.text.contains('yes') || input.text.contains('confirm') || input.text.contains('sure') || input.text.contains('yep') || input.text.contains('yeah')",
+      "parent": "node_c53a31e047e0"
+    },
+    {
+      "type": "standard",
+      "title": "Registration Cancelled",
+      "dialog_node": "node_7a11e7f100b0",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "No problem! I've cancelled the appointment request. Would you like to start over or need help with something else?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "input.text.contains('no') || input.text.contains('cancel') || input.text.contains('nope') || input.text.contains('nah')",
+      "parent": "node_c53a31e047e0",
+      "previous_sibling": "node_1c016d02906e"
+    },
+    {
+      "type": "frame",
+      "title": "Tutoring Session",
+      "dialog_node": "node_4f7e9c3a0f1a",
+      "output": {},
+      "context": {
+        "service_type": "tutoring"
+      },
+      "conditions": "#tutoring",
+      "previous_sibling": "node_b288e5cfbb8f",
+      "digress_in": "does_not_return",
+      "digress_out": "allow_all",
+      "digress_out_slots": "allow_all"
+    },
+    {
+      "type": "slot",
+      "dialog_node": "node_5be37f2187f5",
+      "variable": "$user_name",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Sure thing! I'll help you schedule a tutoring session. First, what's your name?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4f7e9c3a0f1a"
+    },
+    {
+      "type": "slot",
+      "dialog_node": "node_f5b111c65aea",
+      "variable": "$department",
+      "conditions": "@department",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Thanks, $user_name! Which department do you need tutoring in?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4f7e9c3a0f1a",
+      "previous_sibling": "node_5be37f2187f5"
+    },
+    {
+      "type": "slot",
+      "dialog_node": "node_fea38d72489a",
+      "variable": "$appointment_date",
+      "conditions": "@sys-date",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Got it, $department tutoring. What date works for you?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4f7e9c3a0f1a",
+      "previous_sibling": "node_f5b111c65aea"
+    },
+    {
+      "type": "slot",
+      "dialog_node": "node_b359189d575a",
+      "variable": "$appointment_time",
+      "conditions": "@sys-time",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "And what time would you prefer?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "parent": "node_4f7e9c3a0f1a",
+      "previous_sibling": "node_fea38d72489a"
+    },
+    {
+      "type": "standard",
+      "title": "Confirm Tutoring",
+      "dialog_node": "node_3e9973505150",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Here's what I have:\n\nName: $user_name\nSubject: $department\nDate: $appointment_date\nTime: $appointment_time\n\nShould I confirm this tutoring session?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "appointment_summary": "<? 'Tutoring for ' + $user_name + ' in ' + $department + ' on ' + $appointment_date + ' at ' + $appointment_time ?>"
+      },
+      "conditions": "true",
+      "parent": "node_4f7e9c3a0f1a",
+      "previous_sibling": "node_b359189d575a"
+    },
+    {
+      "type": "standard",
+      "title": "Tutoring Confirmed",
+      "dialog_node": "node_c7ffc1a9e7ea",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Your tutoring session is confirmed, $user_name! $department tutoring on $appointment_date at $appointment_time at Norlin Library.\n\nIs there anything else I can help with?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "input.text.contains('yes') || input.text.contains('confirm') || input.text.contains('sure') || input.text.contains('yep') || input.text.contains('yeah') || input.text.contains('please')",
+      "parent": "node_3e9973505150"
+    },
+    {
+      "type": "standard",
+      "title": "Tutoring Cancelled",
+      "dialog_node": "node_609b38e518e8",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "No worries! I've cancelled the tutoring request. Would you like to start over or need help with something else?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "input.text.contains('no') || input.text.contains('cancel') || input.text.contains('nope')",
+      "parent": "node_3e9973505150",
+      "previous_sibling": "node_c7ffc1a9e7ea"
+    },
+    {
+      "type": "standard",
+      "title": "Office Hours",
+      "dialog_node": "node_f331ef156c8d",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Office hours vary by department. Here are some common ones:\n\nComputer Science: Most professors Mon-Thu, 1-3 PM at Engineering Center\nMathematics: Check math.colorado.edu for individual schedules\nPhysics: Duane Physics building, typically Tue/Thu afternoons\n\nFor a specific professor, try the department website or tell me the department and I'll help narrow it down!"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#office_hours",
+      "previous_sibling": "node_4f7e9c3a0f1a",
+      "digress_in": "returns"
+    },
+    {
+      "type": "standard",
+      "title": "Parking",
+      "dialog_node": "node_acab2e24c9ff",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Here's your campus parking guide:\n\nLot 359 (Euclid Ave): Closest to Norlin Library\nEuclid Auto Park: Central campus garage\nLot 308: East campus\nLot 204: Near Engineering Center\n\nDaily permits cost $8. Semester permits available at parking.colorado.edu\n\nNeed directions to a specific lot?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#parking",
+      "previous_sibling": "node_f331ef156c8d",
+      "digress_in": "returns"
+    },
+    {
+      "type": "standard",
+      "title": "Dining",
+      "dialog_node": "node_8df931ba88e5",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "Here are today's dining options:\n\nCenter for Community (C4C): Mon-Fri 7AM-8PM, Sat-Sun 9AM-8PM\nUMC Food Court: Mon-Fri 8AM-6PM\nFarrand Grab & Go: Mon-Fri 11AM-2PM\nVillage Center: Mon-Thu 7AM-9PM, Fri 7AM-7PM\n\nMeal plan info: dining.colorado.edu\n\nAnything else I can help with?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#dining",
+      "previous_sibling": "node_acab2e24c9ff",
+      "digress_in": "returns"
+    },
+    {
+      "type": "standard",
+      "title": "Hours",
+      "dialog_node": "node_655221808379",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "The Campus Help Desk is open:\n\nMonday - Friday: 8:00 AM - 5:00 PM\nSaturday & Sunday: Closed\nUniversity Holidays: Closed\n\nIs there anything else I can help with?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#hours",
+      "previous_sibling": "node_8df931ba88e5",
+      "digress_in": "returns"
+    },
+    {
+      "type": "standard",
+      "title": "Cancel or Modify",
+      "dialog_node": "node_10aeb0aa0a07",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "To modify or cancel an existing appointment, please contact the relevant office:\n\nRegistrar's Office: (303) 492-6970\nEmail: registrar@colorado.edu\nTutoring Center: tutoring@colorado.edu\n\nWould you like to schedule a new appointment instead?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "conditions": "#cancel_modify",
+      "previous_sibling": "node_655221808379"
+    },
+    {
+      "type": "standard",
+      "title": "Escalation",
+      "dialog_node": "node_3eb65b5368bf",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "I understand. Let me connect you with a real person. You can reach:\n\nGeneral Help: (303) 492-1411\nRegistrar: (303) 492-6970\nEmail: help@colorado.edu\n\nThey're available Monday through Friday, 8 AM to 5 PM. Is there anything else I can try to help with?"
+              }
+            ],
+            "selection_policy": "sequential"
+          }
+        ]
+      },
+      "context": {
+        "escalation_requested": true
+      },
+      "conditions": "#escalation",
+      "previous_sibling": "node_10aeb0aa0a07"
+    },
+    {
+      "type": "standard",
+      "title": "Anything Else",
+      "dialog_node": "node_33e285f891fa",
+      "output": {
+        "generic": [
+          {
+            "response_type": "text",
+            "values": [
+              {
+                "text": "I'm sorry, I didn't quite understand that. I can help you with registration, tutoring, office hours, parking, and dining. Could you try rephrasing?"
+              },
+              {
+                "text": "Hmm, I'm not sure I follow. Try asking about registration, tutoring, parking, dining, or office hours. Or type 'help' to see all options."
+              },
+              {
+                "text": "I didn't catch that. You can say things like 'I need to register for a class' or 'Where can I eat on campus?' to get started."
+              }
+            ],
+            "selection_policy": "random"
+          }
+        ]
+      },
+      "conditions": "anything_else",
+      "previous_sibling": "node_3eb65b5368bf"
+    }
+  ]
+}

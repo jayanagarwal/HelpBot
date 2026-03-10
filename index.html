@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>CU Campus Help Desk</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'Segoe UI', -apple-system, BlinkMacSystemFont, sans-serif;
+      min-height: 100vh;
+      background: linear-gradient(135deg, #0d1b2a 0%, #1b2838 40%, #1a3a5c 100%);
+      color: #e0e0e0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    header {
+      width: 100%;
+      padding: 24px 40px;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      background: rgba(0,0,0,0.2);
+      border-bottom: 1px solid rgba(255,255,255,0.06);
+    }
+
+    .logo {
+      width: 48px;
+      height: 48px;
+      background: linear-gradient(135deg, #CFB87C, #A68A4B);
+      border-radius: 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      font-weight: 700;
+      color: #000;
+      flex-shrink: 0;
+    }
+
+    header h1 {
+      font-size: 22px;
+      font-weight: 600;
+      color: #CFB87C;
+      letter-spacing: -0.3px;
+    }
+
+    header p {
+      font-size: 13px;
+      color: #8899aa;
+      margin-top: 2px;
+    }
+
+    main {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 24px;
+      max-width: 720px;
+      text-align: center;
+    }
+
+    .hero-icon {
+      width: 88px;
+      height: 88px;
+      background: linear-gradient(135deg, #2E75B6, #1F4E79);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      margin-bottom: 32px;
+      box-shadow: 0 8px 32px rgba(46, 117, 182, 0.3);
+    }
+
+    main h2 {
+      font-size: 32px;
+      font-weight: 700;
+      color: #fff;
+      margin-bottom: 16px;
+      letter-spacing: -0.5px;
+    }
+
+    main p {
+      font-size: 16px;
+      line-height: 1.7;
+      color: #99aabb;
+      margin-bottom: 24px;
+    }
+
+    .features {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+      gap: 16px;
+      width: 100%;
+      margin-top: 20px;
+    }
+
+    .feature {
+      background: rgba(255,255,255,0.04);
+      border: 1px solid rgba(255,255,255,0.06);
+      border-radius: 12px;
+      padding: 20px 16px;
+      text-align: center;
+      transition: background 0.2s;
+    }
+
+    .feature:hover {
+      background: rgba(255,255,255,0.07);
+    }
+
+    .feature-icon {
+      font-size: 28px;
+      margin-bottom: 8px;
+    }
+
+    .feature h3 {
+      font-size: 14px;
+      font-weight: 600;
+      color: #CFB87C;
+      margin-bottom: 4px;
+    }
+
+    .feature p {
+      font-size: 12px;
+      color: #778899;
+      margin-bottom: 0;
+    }
+
+    .cta {
+      margin-top: 36px;
+      font-size: 15px;
+      color: #66aadd;
+      background: rgba(46, 117, 182, 0.15);
+      border: 1px solid rgba(46, 117, 182, 0.3);
+      padding: 12px 28px;
+      border-radius: 8px;
+    }
+
+    footer {
+      width: 100%;
+      padding: 20px 40px;
+      text-align: center;
+      font-size: 12px;
+      color: #556677;
+      border-top: 1px solid rgba(255,255,255,0.04);
+      background: rgba(0,0,0,0.15);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">CU</div>
+    <div>
+      <h1>Campus Help Desk</h1>
+      <p>AI-Powered Student Assistant</p>
+    </div>
+  </header>
+
+  <main>
+    <div class="hero-icon">&#x1F393;</div>
+    <h2>How can I help you today?</h2>
+    <p>
+      I'm your CU Campus Help Desk assistant. Click the chat icon in the
+      bottom-right corner to ask me about course registration, tutoring,
+      office hours, parking, dining, and more.
+    </p>
+
+    <div class="features">
+      <div class="feature">
+        <div class="feature-icon">&#x1F4DA;</div>
+        <h3>Registration</h3>
+        <p>Enroll in courses, check status, or drop a class</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#x270F;&#xFE0F;</div>
+        <h3>Tutoring</h3>
+        <p>Find tutors and session times by subject</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#x1F552;</div>
+        <h3>Office Hours</h3>
+        <p>Check professor availability by department</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#x1F697;</div>
+        <h3>Parking</h3>
+        <p>Permits, lot locations, and visitor info</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#x1F37D;&#xFE0F;</div>
+        <h3>Dining</h3>
+        <p>Hall hours, menus, and meal plans</p>
+      </div>
+      <div class="feature">
+        <div class="feature-icon">&#x1F4DE;</div>
+        <h3>Live Help</h3>
+        <p>Get connected to campus staff</p>
+      </div>
+    </div>
+
+    <div class="cta">&#x1F4AC; Click the chat bubble in the bottom-right to get started</div>
+  </main>
+
+  <footer>
+    CU Campus Help Desk Bot &mdash; Built with IBM Watson Assistant &mdash; Spring 2026
+  </footer>
+
+  <!--
+    ============================================================
+    WATSON ASSISTANT WEB CHAT EMBED
+    ============================================================
+    INSTRUCTIONS: Replace the three placeholder values below
+    with your actual Watson Assistant credentials from the
+    Watson Assistant dashboard:
+    
+    1. Go to Watson Assistant > your assistant > Environments
+    2. Click "Web chat" integration
+    3. Copy integrationID, region, and serviceInstanceID
+    ============================================================
+  -->
+  <script>
+    window.watsonAssistantChatOptions = {
+      integrationID: "YOUR_INTEGRATION_ID",       // <-- Replace this
+      region: "us-south",                          // <-- Replace if different
+      serviceInstanceID: "YOUR_SERVICE_INSTANCE_ID", // <-- Replace this
+      onLoad: async (instance) => { await instance.render(); }
+    };
+    setTimeout(function(){
+      const t = document.createElement('script');
+      t.src = "https://web-chat.global.assistant.watson.appdomain.cloud/versions/" +
+              (window.watsonAssistantChatOptions.clientVersion || 'latest') +
+              "/WatsonAssistantChatEntry.js";
+      document.head.appendChild(t);
+    });
+  </script>
+</body>
+</html>
